@@ -93,12 +93,18 @@ a{
     font-size: 16px;
     font-weight: 400;
     color: #5A5A5D;
+    display: inline-block;
 }
 .price{
+    display: block;
     font-size: 20px;
     font-weight: 900;
     color: var(--btn-color);
     text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.discount-icon{
+    color: #ff5400;
 }
 /* common css end */
 /* header part start */
@@ -340,3 +346,49 @@ header{
     justify-self: center;
 }
 /* choose-us part end */
+/* discount part start */
+.discount-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.discount-text{
+    max-width: 640px;
+    text-align: center;   
+}
+ .discount-container .discount-content{
+   width: 100%;
+}
+.discount-content .discount-item{
+    background-image: url(../Images/discount-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+.discount-item .overly{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 35px;
+}
+.discount-item .overly .overly-card{
+    max-width: 500px;
+    /* height: max-content; */
+    background-color: rgba(204, 199, 199, 0.836);
+    padding: 25px;
+    border-radius: 15px;
+}
+.discount-item .overly .overly-card ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+}
+.discount-item .overly .overly-card ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* discount part end */
