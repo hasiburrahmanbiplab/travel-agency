@@ -203,3 +203,116 @@ header{
     height: auto;
 }
 /* popular part end */
+/* destination part start */
+#destination{
+    background-color: var(--white);
+}
+.destination-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+}
+.destination-text{
+    max-width: 650px;
+    text-align: center;
+}
+.destination-images{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3 , 1fr);
+    row-gap: 35px;
+}
+.destination-images .row-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 35px;
+}
+.destination-images .row-1 .img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.destination-images .row-1 .img .overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.destination-images .row-1 .img img{
+    width: 100%;
+    height: 100%;
+}
+/* row-2 */
+.destination-images .row-2{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 35px;
+}
+.destination-images .row-2 .img{
+    position: relative;
+}
+.destination-images .row-2 .img .overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.destination-images .row-2 .img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.destination-images .row-2 .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+/* row-3 */
+.destination-images .row-3{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    column-gap: 35px;
+}
+.destination-images .row-3 .img{
+    position: relative;
+}
+.destination-images .row-3 .img .overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.destination-images .row-3 .img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.destination-images .row-3 .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+/* destination part end */
+/* choose-us part start */
+#choose-us{
+    margin: 150px 0;
+}
+/* choose-us part end */

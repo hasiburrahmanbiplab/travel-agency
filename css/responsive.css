@@ -44,6 +44,9 @@
     }
     /* banner part end */
     /* popular part start */
+    #popular {
+        margin: 60px 0;
+    }
     .popular-container {
         grid-template-columns: 1fr;
         row-gap: 30px;
@@ -100,6 +103,9 @@
     }
      /* banner part end */
      /* popular part start */
+     #popular {
+        margin: 85px 0;
+    }
      .popular-container {
         grid-template-columns: 1fr;
         row-gap: 30px;
@@ -133,6 +139,9 @@
     }
     /* header part end */
     /* popular part start */
+    #popular {
+        margin: 100px 0;
+    }
     .popular-container {
         column-gap: 35px;
         align-items: center;
