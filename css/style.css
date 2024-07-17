@@ -62,7 +62,7 @@ a{
     font-size: 16px;
     font-weight: 400;
     column-rule-color: var(--secondary-color);
-    line-height: 26px;
+    line-height: 30px;
     padding: 13px 0;
 }
 .section-p2{
@@ -123,3 +123,55 @@ header{
     transition: all linear 0.1s;
 }
 /* header part end */
+/* banner part start */
+#banner{
+    background-color: var(--white);
+}
+.banner-container{
+    background: url(../Images/banner.png);
+    background-color: #13131863;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-radius: 16px;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container .banner-text{
+    max-width: 670px;
+    text-align: center;
+}
+.banner-text p{
+    width: 90%;
+    margin: 0 auto;
+}
+.search-panel{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    background-color: red;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.185);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.search-panel input,
+.search-panel select{
+    color: var(--input-color);
+    font-size: 14px;
+}
+.search-panel input,
+.search-panel select,
+.search-panel button{
+    width: 150px;
+    height: 45px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 10px;
+}
+/* banner part end */
