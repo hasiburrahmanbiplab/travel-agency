@@ -221,13 +221,11 @@ header{
 .destination-images{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3 , 1fr);
     row-gap: 35px;
 }
 .destination-images .row-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
     column-gap: 35px;
 }
 .destination-images .row-1 .img{
@@ -253,7 +251,6 @@ header{
 .destination-images .row-2{
     display: grid;
     grid-template-columns: 1.5fr 2fr 1fr;
-    grid-template-rows: 1fr;
     column-gap: 35px;
 }
 .destination-images .row-2 .img{
