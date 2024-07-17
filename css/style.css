@@ -65,10 +65,18 @@ a{
     line-height: 26px;
     padding: 13px 0;
 }
+.section-p2{
+    font-size: 16px;
+    font-weight: 400;
+    column-rule-color: var(--promary-color);
+    line-height: 26px;
+    padding: 13px 0;
+}
 .nav-link{
     font-size: 18px;
     font-weight: 400;
     color:var(--nav-link);
+    text-transform: capitalize;
 }
 .common-btn{
     font-size: 16px;
@@ -78,5 +86,16 @@ a{
     padding: 15px 25px;
     border: none;
     border-radius: 8px;
+    text-transform: capitalize;
+}
+.trip-overview{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+.price{
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--btn-color);
     text-transform: capitalize;
 }
