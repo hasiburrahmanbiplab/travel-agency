@@ -9,10 +9,19 @@
     .section-h3 {
         font-size: 20px;
     }
+    .section-h4 {
+        font-size: 20px;
+    }
     .section-p {
         font-size: 14px;
         line-height: 28px;
         padding: 10px 0;
+    }
+    .price {
+        font-size: 16px;
+    }
+    .hide{
+        display: none;
     }
     header{
         padding-top: 15px;
@@ -85,6 +94,19 @@
          justify-self: center;
      }
     /* choose part end */
+    /* discount part start */
+    .discount-content .discount-item{
+        min-height: 400px;
+    }
+    .discount-item .overly {
+        justify-content: center;
+        align-items: end;
+        padding: 15px;
+    }
+    .discount-content .discount-item:nth-child(2) .overly{
+        justify-content: center;
+    }
+    /* discount part end */
 }
 @media (min-width:577px) and (max-width:767.99px) {
     .section-h1 {
