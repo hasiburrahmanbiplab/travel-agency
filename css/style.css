@@ -99,3 +99,27 @@ a{
     color: var(--btn-color);
     text-transform: capitalize;
 }
+/* common css end */
+/* header part start */
+header{
+    background-color:var(--white);
+    padding: 50px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+}
+.navbar nav ul .nav-link{
+    transition: all linear 0.1s;
+}
+.navbar nav ul .nav-link:hover{
+    color: var(--btn-color);
+    transition: all linear 0.1s;
+}
+/* header part end */
