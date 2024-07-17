@@ -32,7 +32,7 @@ a{
     max-width: 1100px;
     margin: 0 auto;
     border: 1px solid green;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 .section-h1{
     font-size: 64px;
@@ -161,8 +161,7 @@ header{
     justify-content: space-around;
     gap: 15px;
     padding: 15px;
-    background: rgba(255, 255, 255, 0.185);
-    backdrop-filter: blur(50px);
+    background: rgba(255, 255, 255, 0.308);
     border-radius: 10px;
 }
 .search-panel input,
@@ -180,3 +179,27 @@ header{
     border-radius: 10px;
 }
 /* banner part end */
+/* popular part start */
+#popular{
+    background-color: var(--white);
+    margin: 150px 0;
+}
+.popular-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 50px;
+}
+.popular-text ul{
+   margin-left: 20px;
+}
+.popular-text ul li{
+   display: list-item;
+   list-style: disc;
+   padding: 5px 0;
+}
+.popular-image img{
+    width: 100%;
+    height: auto;
+}
+/* popular part end */

@@ -1,7 +1,15 @@
 @media (max-width:576.99px) {
     /* header part start */
     .section-h1 {
-        font-size: 50px;
+        font-size: 35px;
+    }
+    .section-h2 {
+        font-size: 30px;
+    }
+    .section-p {
+        font-size: 14px;
+        line-height: 28px;
+        padding: 10px 0;
     }
     header{
         padding-top: 15px;
@@ -22,17 +30,38 @@
         padding: 50px 0;
     }
     .banner-text .search-panel{
-        background: none;
-        backdrop-filter: blur(0px);
+        max-width: 340px;
+        margin: 15px auto 0;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: rgba(255, 255, 255, 0.185);
+    }
+    .search-panel input,
+     .search-panel select, 
+     .search-panel button {
+        width: 100%;
     }
     /* banner part end */
+    /* popular part start */
+    .popular-container {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .popular-text h2{
+        margin-bottom: 15px;
+    }
+    .popular-text p:nth-of-type(2){
+        margin-bottom: 15px;
+    }
+    /* popular part end */
 }
 @media (min-width:577px) and (max-width:767.99px) {
     .section-h1 {
-        font-size: 55px;
+        font-size: 45px;
+    }
+    .section-h2 {
+        font-size: 35px;
     }
     .section-p {
         padding: 20px 0;
@@ -50,28 +79,47 @@
     /* header part end */
      /* banner part start */
      .banner-container{
-        height: 420px;
+        height: 500px;
     }
     .banner-content .banner-text {
         max-width: 585px;
         padding: 20px 0;
     }
-    .search-panel {
-        width: 98%;
-        gap: 12px;
-        padding: 12px;
-        margin: 0 auto;
+    .banner-text .search-panel{
+        max-width: 340px;
+        margin: 15px auto 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.185);
     }
-    .search-panel input, 
-    .search-panel select,
+    .search-panel input,
+     .search-panel select, 
      .search-panel button {
-        width: 118px;
+        width: 100%;
     }
-   
      /* banner part end */
+     /* popular part start */
+     .popular-container {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .popular-text h2{
+        margin-bottom: 15px;
+    }
+    .popular-text p:nth-of-type(2){
+        margin-bottom: 15px;
+    }
+     /* popular part end */
 
 }
 @media (min-width:768px) and (max-width:991.99px){
+    .section-h1 {
+        font-size: 60px;
+    }
+    .section-h2 {
+        font-size: 35px;
+    }
     /* header part start */
     header{
         padding-top: 15px;
@@ -84,9 +132,23 @@
        flex-direction: column;
     }
     /* header part end */
+    /* popular part start */
+    .popular-container {
+        column-gap: 35px;
+        align-items: center;
+    }
+   .popular-text > p{
+    display: none;
+   }
+   .popular-text ul{
+    padding: 15px 0;
+   }
+    /* popular part end */
 }
 @media (min-width:992px) and (max-width:1199.99px){
-    
+    .popular-container {
+        align-items: center;
+    }
 }
 @media (min-width:1200px) {
     
