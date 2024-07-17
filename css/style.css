@@ -332,7 +332,7 @@ header{
     max-width: 500px;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid var(--btn-color);
+    border: 1px solid #ff550081;
 }
 .choose-content .choose-card:nth-child(3){
     grid-column-start: span 2;
